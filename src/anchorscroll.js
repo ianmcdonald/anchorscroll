@@ -31,8 +31,8 @@ function anchorscroll(speed = 0.5, selector = '.anchorscroll', offset = 30) {
                     if (top >= position + offset) {
                         window.scrollTo(0, position);
                         position += speed * 50;
-                    }
-                    raf(scrollDown);
+                        raf(scrollDown);
+                    }                    
                 }
 
                 function scrollUp() {
@@ -40,8 +40,8 @@ function anchorscroll(speed = 0.5, selector = '.anchorscroll', offset = 30) {
                     if (top <= position  + offset) {
                         window.scrollTo(0, position);
                         position -= speed * 50;
-                    }
-                    raf(scrollUp);
+                        raf(scrollUp);
+                    }                    
                 }
 
                 top >= position ? scrollDown() : scrollUp();
