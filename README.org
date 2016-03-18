@@ -1,6 +1,6 @@
 #+TITLE: Anchorscroll
 
-****A small, dependency-free ES2015 package for handling smooth-scrolling for on-page anchors.
+**** A small, dependency-free ES2015 package for handling smooth-scrolling for on-page anchors.
 
 Just add the script to your project and invoke it.
 
@@ -10,6 +10,6 @@ anchorscroll(speed [default = 0.5], selector [default = '.anchorscroll'], offset
 
 All parameters are optional.
 
-* TO DO
-** Docs 
-** Demo
+**** TO DO
+- Docs 
+- Demo
