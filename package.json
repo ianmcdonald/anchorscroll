@@ -1,0 +1,36 @@
+{
+  "name": "anchorscroll",
+  "version": "0.0.1",
+  "description": "A small, dependency-free smooth-scrolling package",
+  "main": "/src/anchorscroll.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "js": "babel src/anchorscroll.js -w -o dist/anchorscroll.js",
+    "start": "npm run js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmcdonald/anchorscroll.git"
+  },
+  "keywords": [
+    "smooth",
+    "scrolling",
+    "anchor",
+    "scroll",
+    "es6",
+    "es2015"
+  ],
+  "author": "iangregoryjames@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianmcdonald/anchorscroll/issues"
+  },
+  "homepage": "https://github.com/ianmcdonald/anchorscroll#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0"
+  }
+}
