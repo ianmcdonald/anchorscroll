@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "js": "babel src/anchorscroll.js -w -o dist/anchorscroll.js",
+    "js": "babel anchorscroll.js -w -o anchorscroll.js",
     "start": "npm run js"
   },
   "repository": {
