@@ -1,8 +1,8 @@
 {
   "name": "anchorscroll",
   "version": "0.0.1",
-  "description": "A small, dependency-free smooth-scrolling package",
-  "main": "/src/anchorscroll.js",
+  "description": "Dependency-free smooth-scrolling to hashed anchors",
+  "main": "index.js",
   "babel": {
     "presets": [
       "es2015"
@@ -13,8 +13,8 @@
     "start": "npm run js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ianmcdonald/anchorscroll.git"
+    "url": "git+https://github.com/ianmcdonald/anchorscroll.git",
+    "type": "git"
   },
   "keywords": [
     "smooth",
